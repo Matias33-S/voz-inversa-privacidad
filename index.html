@@ -1,118 +1,70 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Política de privacidad de Voz Inversa, aplicación de Mbareté Games.">
+  <meta name="description" content="Política de privacidad de Voz Inversa.">
   <title>Política de privacidad - Voz Inversa</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.7;
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 24px;
-      color: #222;
-      background: #fff;
-    }
-    h1, h2 { color: #174b35; }
-    h1 { line-height: 1.25; }
-    a { color: #1769aa; overflow-wrap: anywhere; }
-    footer {
-      margin-top: 36px;
-      padding-top: 16px;
-      border-top: 1px solid #ddd;
-      font-size: 0.9em;
-    }
+    :root { color-scheme: light; --navy:#101827; --teal:#138f7c; --text:#243044; --muted:#5e6b7e; --card:#ffffff; --line:#e3e8ef; }
+    * { box-sizing: border-box; }
+    body { margin:0; background:#f3f6fa; color:var(--text); font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif; }
+    header { background:var(--navy); color:#fff; padding:38px 20px 32px; border-bottom:5px solid #43d9bd; }
+    header div, main, footer { max-width:850px; margin:0 auto; }
+    header h1 { margin:0 0 6px; font-size:clamp(1.8rem,5vw,2.5rem); line-height:1.2; }
+    header p { margin:0; color:#b9c6d8; }
+    main { padding:26px 16px 40px; }
+    article { background:var(--card); padding:clamp(20px,5vw,36px); border:1px solid var(--line); border-radius:16px; box-shadow:0 8px 26px rgba(16,24,39,.05); }
+    h2 { margin:28px 0 8px; color:var(--navy); font-size:1.25rem; }
+    h2:first-child { margin-top:0; }
+    a { color:var(--teal); overflow-wrap:anywhere; }
+    .date { color:var(--muted); font-size:.95rem; }
+    footer { padding:0 20px 28px; color:var(--muted); font-size:.9rem; }
+    ul { padding-left:1.3rem; }
   </style>
 </head>
 <body>
-  <h1>Política de privacidad de Voz Inversa</h1>
-  <p><strong>Desarrollador:</strong> Mbareté Games</p>
-  <p><strong>Última actualización:</strong> 23 de octubre de 2026</p>
+  <header>
+    <div>
+      <h1>Voz Inversa</h1>
+      <p>Política de privacidad</p>
+    </div>
+  </header>
+  <main>
+    <article>
+      <p class="date">Última actualización: 23 de octubre de 2026</p>
 
-  <h2>1. Introducción</h2>
-  <p>
-    Esta política describe las consideraciones de privacidad relacionadas
-    con Voz Inversa. La aplicación permite grabar una frase y reproducir
-    el audio en orden inverso para que el usuario intente imitarlo.
-  </p>
+      <p>Esta política explica cómo funciona el tratamiento de información en la aplicación <strong>Voz Inversa</strong>.</p>
 
-  <h2>2. Acceso al micrófono y audio</h2>
-  <p>
-    La aplicación necesita acceso al micrófono para capturar el audio
-    cuando el usuario utiliza la función de grabación. El audio capturado
-    se utiliza para la funcionalidad principal de la aplicación.
-  </p>
-  <p>
-    El tratamiento exacto del audio, incluida su conservación temporal,
-    almacenamiento y posible transmisión, depende de la implementación
-    de la versión instalada. No introduzcas información confidencial
-    mientras utilizas la aplicación.
-  </p>
+      <h2>1. Información que utiliza la aplicación</h2>
+      <p>Voz Inversa solicita permiso para acceder al micrófono únicamente para grabar la frase que la persona usuaria elige decir y poder reproducirla normalmente o en orden inverso.</p>
 
-  <h2>3. Recopilación y uso de datos</h2>
-  <p>
-    La función principal de Voz Inversa utiliza audio proporcionado por
-    el usuario. Esta política no debe interpretarse como una declaración
-    de que la aplicación no recopila ningún otro dato: cualquier biblioteca,
-    servicio externo o función adicional incorporada a la aplicación debe
-    evaluarse y declararse según corresponda.
-  </p>
+      <h2>2. Procesamiento del audio</h2>
+      <p>Las grabaciones se procesan localmente en el dispositivo. La aplicación mantiene las muestras de audio en memoria mientras se utilizan para la reproducción. No sube las grabaciones a servidores ni las transmite a terceros. La versión actual no ofrece una función para guardar las grabaciones de forma permanente dentro de la aplicación.</p>
+      <p>Si no se concede el permiso del micrófono, la función de grabación no estará disponible.</p>
 
-  <h2>4. Servicios de terceros</h2>
-  <p>
-    Si la aplicación incorpora servicios de terceros, como publicidad,
-    analítica o informes de fallos, se deberá informar sobre los datos
-    que esos servicios puedan tratar y actualizar esta política cuando
-    corresponda.
-  </p>
+      <h2>3. Recopilación y uso de datos</h2>
+      <p>La aplicación no requiere crear una cuenta y, en su funcionamiento actual, no recopila ni envía a su desarrollador datos personales ni grabaciones de audio. El audio se utiliza únicamente para ofrecer la función principal de grabación y reproducción en el dispositivo.</p>
 
-  <h2>5. Conservación y eliminación</h2>
-  <p>
-    El tiempo durante el que se conserva el audio u otro dato depende
-    del funcionamiento de la versión instalada y de los servicios que
-    utilice. Esta información debe verificarse con la implementación
-    antes de establecer un plazo concreto de conservación o eliminación.
-  </p>
+      <h2>4. Servicios de terceros y publicidad</h2>
+      <p>La versión descrita por esta política no integra SDK de publicidad ni herramientas de analítica de terceros. Si en una versión futura se incorporan servicios que traten datos, esta política se actualizará para describirlos antes de que corresponda.</p>
 
-  <h2>6. Seguridad</h2>
-  <p>
-    Se deben aplicar medidas razonables para proteger la información
-    tratada por la aplicación. Ningún método de almacenamiento o
-    transmisión puede garantizar seguridad absoluta.
-  </p>
+      <h2>5. Conservación y eliminación</h2>
+      <p>El audio grabado se mantiene en memoria durante el uso de la función y no se guarda como un archivo permanente por la aplicación. Al finalizar el proceso o cuando el sistema libera la memoria, esas muestras dejan de estar disponibles para la aplicación.</p>
 
-  <h2>7. Privacidad de menores</h2>
-  <p>
-    La aplicación no debe utilizarse de una forma incompatible con las
-    condiciones de edad y las políticas aplicables de Google Play.
-    La clasificación de público objetivo se declarará por separado
-    en Google Play Console.
-  </p>
+      <h2>6. Seguridad</h2>
+      <p>Como el audio se procesa en el dispositivo y no se transmite a servidores mediante la aplicación, Voz Inversa no mantiene una copia de esas grabaciones en sus propios servidores.</p>
 
-  <h2>8. Cambios en esta política</h2>
-  <p>
-    Esta política podrá actualizarse cuando cambien las funciones,
-    los permisos o los servicios utilizados por Voz Inversa.
-    La fecha de actualización se modificará cuando se publique una
-    nueva versión de esta política.
-  </p>
+      <h2>7. Privacidad de menores</h2>
+      <p>Voz Inversa no solicita información personal ni requiere una cuenta. Las personas responsables de menores deben supervisar el uso de las funciones del dispositivo, incluido el acceso al micrófono.</p>
 
-  <h2>9. Contacto</h2>
-  <p>
-    Para consultas relacionadas con esta política de privacidad,
-    puedes contactar al desarrollador:
-  </p>
-  <p>
-    <strong>Mbareté Games</strong><br>
-    Correo electrónico:
-    <a href="mailto:marcos_salinas97@hotmail.com">marcos_salinas97@hotmail.com</a>
-  </p>
+      <h2>8. Cambios en esta política</h2>
+      <p>Esta política podrá actualizarse si cambia el funcionamiento de la aplicación o si se incorporan nuevas funciones o servicios. La fecha de la última actualización aparecerá al inicio de esta página.</p>
 
-  <footer>
-    Política de privacidad de Voz Inversa.
-  </footer>
+      <h2>9. Contacto</h2>
+      <p>Si tienes preguntas sobre esta política de privacidad, puedes escribir a: <a href="mailto:marcos_salinas97@hotmail.com">marcos_salinas97@hotmail.com</a>.</p>
+    </article>
+  </main>
+  <footer>Voz Inversa · Política de privacidad</footer>
 </body>
 </html>
